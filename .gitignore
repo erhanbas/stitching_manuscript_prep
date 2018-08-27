@@ -1,3 +1,5 @@
 *.m~
 *.tif
 *.tiff
+/groups/mousebrainmicro/home/base/CODE/MATLAB/stitching_manuscript_prep/datafold
+
