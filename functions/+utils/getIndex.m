@@ -1,0 +1,6 @@
+function these_inds = getIndex(loc,tilelocs,FOV)
+these_inds = find(tilelocs(:,1)>loc(1)&tilelocs(:,1)-FOV(1)<loc(1) & ...
+    tilelocs(:,2)>loc(2)&tilelocs(:,2)-FOV(2)<loc(2) & ...
+    tilelocs(:,3)<loc(3)&tilelocs(:,3)+FOV(3)>loc(3),1);
+end
+
